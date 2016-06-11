@@ -196,27 +196,27 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cancancan (~> 1.10)
-  coffee-rails (~> 4.1.0)
+  cancancan
+  coffee-rails
   database_cleaner
   devise
-  factory_girl_rails (~> 4.0)
-  jbuilder (~> 2.0)
+  factory_girl_rails
+  jbuilder
   jquery-rails
   pg
   puma
   rails (>= 5.0.0.beta2, < 5.1)
   rails-controller-testing
   rails_12factor
-  redis (~> 3.0)
+  redis
   rspec-rails (= 3.5.0.beta4)
-  sass-rails (~> 5.0)
+  sass-rails
   sqlite3
   turbolinks (= 5.0.0.beta2)
   tzinfo-data
-  uglifier (>= 1.3.0)
-  web-console (~> 3.0)
-  will_paginate (~> 3.1.0)
+  uglifier
+  web-console
+  will_paginate
 
 BUNDLED WITH
    1.12.5
