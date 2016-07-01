@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.0.rc1'
+gem 'rails', '5.0.0'
 
 gem 'turbolinks'
 gem 'puma'
 gem 'jquery-rails'
 gem 'redis'
-gem 'devise'
+gem 'devise', github: 'plataformatec/devise'
 gem 'cancancan'
 gem 'rails-controller-testing'
 
