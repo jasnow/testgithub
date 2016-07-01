@@ -6,7 +6,7 @@ gem 'turbolinks'
 gem 'puma'
 gem 'jquery-rails'
 gem 'redis'
-gem 'devise', github: 'plataformatec/devise'
+gem 'devise'
 gem 'cancancan'
 gem 'rails-controller-testing'
 
