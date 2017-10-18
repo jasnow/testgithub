@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '5.1.4'
 
 gem 'turbolinks'
-gem 'puma'
 gem 'jquery-rails'
 gem 'redis'
 gem 'devise'
