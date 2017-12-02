@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 	def create
-		@product = Product.find(params[:product_id])
+		@product = Product.where("product_id = ?", params[:product_id]).first
 		@comment = @product.comments.new(comment_params)
 		
 		@comment.user = current_user
@@ -16,13 +16,11 @@ class CommentsController < ApplicationController
 	end
 
 	def destroy
-    @comment = Comment.find(params[:id])
+    @comment = Comment.where("id = ?", params[:id]).first
     product = @comment.product
     @comment.destroy
     redirect_to product
 	end
-
-
 
 private
 
