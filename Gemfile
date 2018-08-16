@@ -29,6 +29,7 @@ group :development, :test do
 
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'rubocop-rspec'
 end
 
 group :production do
