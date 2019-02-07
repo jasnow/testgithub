@@ -24,7 +24,7 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug'
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.13' # 2/7/2019: LOCKED DOWN
   gem 'rspec-rails'
 
   gem 'factory_bot_rails'
