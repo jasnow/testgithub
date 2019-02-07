@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/plataformatec/devise
-  revision: 6064ca8b736faafa2f597e5319c1a43938c2eae9
+  revision: 90a1ac59b30d52024f6abf65524ccc8e5ee7061e
   specs:
-    devise (4.5.0)
+    devise (4.6.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 6.0)
