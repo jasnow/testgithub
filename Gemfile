@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '6.0.0.beta1'
-gem 'devise', git: 'https://github.com/plataformatec/devise'
+gem 'devise'
 
 gem 'turbolinks'
 gem 'jquery-rails'
