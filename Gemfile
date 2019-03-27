@@ -11,8 +11,8 @@ gem 'rails-controller-testing'
 
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
-gem 'jbuilder'
+gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
+gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 gem 'will_paginate'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
