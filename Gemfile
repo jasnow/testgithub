@@ -11,7 +11,7 @@ gem 'rails-controller-testing'
 
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
+gem 'coffee-rails'
 gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 gem 'will_paginate'
 
