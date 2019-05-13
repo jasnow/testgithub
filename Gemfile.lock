@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/jbuilder
-  revision: 3895a7243f3db292b0bf15513fc05494e6e50576
+  revision: 2afb88129c9d3fcd7977ae65cb26fca1b0f52b99
   specs:
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
@@ -181,14 +181,14 @@ GEM
       rspec-mocks (~> 3.8)
       rspec-support (~> 3.8)
     rspec-support (3.8.0)
-    rubocop (0.68.1)
+    rubocop (0.69.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
-      parser (>= 2.5, != 2.5.1.1)
+      parser (>= 2.6)
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.6)
-    rubocop-rspec (1.32.0)
+      unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-rspec (1.33.0)
       rubocop (>= 0.60.0)
     ruby-progressbar (1.10.0)
     sass (3.7.4)
@@ -220,7 +220,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (1.5.0)
+    unicode-display_width (1.6.0)
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (4.0.0)
