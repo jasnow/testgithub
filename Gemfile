@@ -11,7 +11,7 @@ gem 'rails-controller-testing'
 
 gem 'sass-rails'
 gem 'uglifier'
-gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
+gem 'jbuilder'
 gem 'will_paginate'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
