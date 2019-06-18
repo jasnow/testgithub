@@ -9,7 +9,7 @@ gem 'redis'
 gem 'cancancan'
 gem 'rails-controller-testing'
 
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'jbuilder'
 gem 'will_paginate'
