@@ -13,5 +13,7 @@ module Firstapp
     # -- all .rb files in that directory are automatically loaded.
 
     config.generators.javascript_engine = :js
+
+    config.action_dispatch.return_only_media_type_on_content_type = false
   end
 end
