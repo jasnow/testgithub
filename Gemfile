@@ -12,7 +12,7 @@ gem 'rails-controller-testing'
 gem 'sassc-rails'
 gem 'uglifier'
 gem 'jbuilder'
-gem 'will_paginate'
+gem 'kaminari'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
