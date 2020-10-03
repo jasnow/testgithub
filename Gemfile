@@ -33,7 +33,7 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
+#HID:  gem 'pg' # HID on 10/3/2020
 end
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
