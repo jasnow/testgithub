@@ -160,7 +160,7 @@ GEM
       thor (>= 0.20.3, < 2.0)
     rainbow (3.0.0)
     rake (13.0.1)
-    redis (4.2.2)
+    redis (4.2.4)
     regexp_parser (1.8.2)
     responders (3.0.1)
       actionpack (>= 5.0)
